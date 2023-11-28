@@ -370,17 +370,4 @@ form button{
         font-size: 28px;
     }
 
-    /* Add more styles as required for smaller screens */
-}
-
-/* Styles for medium-sized screens (e.g., tablets) */
-@media only screen and (min-width: 769px) and (max-width: 1024px) {
-    /* Adjust styles for medium-sized screens */
-    /* You can modify font sizes, margins, paddings, etc. */
-}
-
-/* Styles for larger screens (e.g., desktops) */
-@media only screen and (min-width: 1025px) {
-    /* Adjust styles for larger screens */
-    /* You can modify font sizes, margins, paddings, etc. */
 }
