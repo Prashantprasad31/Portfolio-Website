@@ -340,3 +340,80 @@ form button{
         opacity: 1;
     }
 }
+
+/* Common styles for all screen sizes */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #ededed;
+}
+
+/* Header styles */
+.header {
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Navigation bar styles */
+.navbar a {
+    display: inline-block;
+    font-size: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Sections (home, about, skill, contact) */
+.home,
+.about,
+.skill,
+.contact {
+    /* Your existing section styles */
+    padding: 70px 10% 0; /* Adjust as needed */
+}
+
+/* Styles for smaller screens (e.g., smartphones) */
+@media only screen and (max-width: 768px) {
+    .header {
+        padding: 15px 5%;
+    }
+
+    .logo {
+        font-size: 20px;
+    }
+
+    .navbar a {
+        font-size: 20px;
+        margin-left: 20px;
+    }
+
+    /* Adjust other section styles as needed for smaller screens */
+    .home,
+    .about,
+    .skill,
+    .contact {
+        padding: 50px 5%;
+        background: url(bg.png);
+    }
+
+    .home-content h3 {
+        font-size: 28px;
+    }
+
+    /* Add more styles as required for smaller screens */
+}
+
+/* Styles for medium-sized screens (e.g., tablets) */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    /* Adjust styles for medium-sized screens */
+    /* You can modify font sizes, margins, paddings, etc. */
+}
+
+/* Styles for larger screens (e.g., desktops) */
+@media only screen and (min-width: 1025px) {
+    /* Adjust styles for larger screens */
+    /* You can modify font sizes, margins, paddings, etc. */
+}
