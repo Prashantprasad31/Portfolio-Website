@@ -220,12 +220,6 @@ body
 
 }
 
-
-
-
-
-
-
 .contact{
     position: relative;
     width:100%;
@@ -277,28 +271,7 @@ form button{
     width: 150px;
     margin: 15px auto 0;
     border-radius: 30px;
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @keyframes slideRight {
     0% {
@@ -340,4 +313,37 @@ form button{
         opacity: 1;
     }
 }
+
+@media only screen and (max-width: 768px) {
+    .header {
+        padding: 15px 5%;
+        width: 100%;
+        
+    }
+
+    .logo {
+        font-size: 15px;
+    }
+
+    .navbar a {
+        font-size: 15px;
+        margin-left: 10px;
+    }
+
+    .home,
+    .about,
+    .skill,
+    .contact {
+        background: url(bg.png);
+    }
+
+    .home-content h1{
+        font-size: 30px;
+        font-weight: 700;
+        margin: -3px 0;
+    }
+}
+
+
+
 
