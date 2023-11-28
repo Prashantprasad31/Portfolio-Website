@@ -341,39 +341,6 @@ form button{
     }
 }
 
-/* Common styles for all screen sizes */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-    color: #ededed;
-}
-
-/* Header styles */
-.header {
-    background: transparent;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-/* Navigation bar styles */
-.navbar a {
-    display: inline-block;
-    font-size: 10px;
-    color: #fff;
-    text-decoration: none;
-}
-
-/* Sections (home, about, skill, contact) */
-.home,
-.about,
-.skill,
-.contact {
-    /* Your existing section styles */
-    padding: 70px 10% 0; /* Adjust as needed */
-}
 
 /* Styles for smaller screens (e.g., smartphones) */
 @media only screen and (max-width: 768px) {
